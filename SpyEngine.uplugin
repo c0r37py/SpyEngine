@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 24,
+	"VersionName": "1.0.0",
+	"FriendlyName": "SpyEngine",
+	"Description": "SpyEngine: Simply Spy on any Pak file from any Game",
+	"Category": "Editor",
+	"CreatedBy": "c0r37py",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "spy.qq.com",
+	"SupportURL": "",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "OasisContentBrowser",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "AssetManagerEditor",
+			"Enabled": true
+		}
+	]
+}
